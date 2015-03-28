@@ -1,1 +1,118 @@
 
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+h1 { 
+    color: #FE6666;
+    font-family: Tahoma;
+    font-size:55px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+
+}
+p{ 
+    color: grey;
+    font-family: Tahoma;
+    font-size: 25px;
+    margin-left: 100px; }
+img {
+    margin-left: 50px;
+    height: 180px;
+float: left;
+position: absolute;}
+
+#about {
+    margin-left:200px;
+    
+}
+
+h2 {
+    color:#FBC924;
+    font-family: Tahoma;
+    font-size: 33px;
+    margin-left: 50px; }
+
+
+#about_me {
+    font-size: 21px;
+    font-family: Trebuchet MS;
+    margin-left: 50px;
+    text-align: left;
+    color: grey;}
+#link_box {
+    background-color:#05EBAE;
+  margin-top: 70px;
+    margin-left: 50px;
+    width: 180px;
+    height: 50px; 
+}
+h3 {
+    color:white;
+    font-family: Tahoma;
+    font-size: 20px;
+    text-align:center;
+    padding: 12px;
+     }
+li {
+    color: #05EBAE;
+    margin-left: 30px}
+
+a {
+    text-decoration:none;
+    font-family: Trebuchet MS;
+    color: #FBC924;
+    font-size: 20px
+}
+
+a:hover {
+    color:#FE6666; }
+
+#copyright {
+    font-size: 12px;
+    text-align: center; }
