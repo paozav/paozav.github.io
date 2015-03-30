@@ -72,14 +72,30 @@ body {
     .text-aboutme {
       color: #6C7A89;
       font-size: 16px;
-      font-family: 'Montserrat';
+      font-family: 'Montserrat', helvetica;
 
     }
 
     a {
       text-decoration: none;
-      color:#FE6666;
+      color:#f97062;
     }
     a:hover {
       color:#81CFE0;
+    }
+
+    #github-link {
+      width: 26px;
+      height: 26px;
+      margin-left: 85px
+    }
+#twitter-link {
+      width: 28px;
+      height: 28px;
+      margin-left: 12px;
+    }
+    #instagram-link {
+      width: 28px;
+      height: 28px;
+      margin-left: 12px;
     }
