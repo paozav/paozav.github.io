@@ -51,96 +51,35 @@ input, select { vertical-align: middle; }
 /* Write your CSS styles here */
 
 body {
-    background-color: white;
-}
-#header {
-  
-  width: 785px;
-  height: 90px;
-}
-#header-text {
-  text-align: center;
-  font-family: Lobster;
-  font-size: 50px;
-  margin: 10px 10px 10px 10px;
-  color: #FF6666;
-}
-nav {
-
-  overflow: auto;
+    background: url("http://static.pexels.com/wp-content/uploads/2014/07/architect-calculating-design-2097.jpg")
+    repeat fixed center center / cover  rgba(0, 0, 0, 0);
 }
 
-.nav-button {
-  border: solid yellow 2px;
-  color: grey;
-  width: 125px;
-  border-radius: 3px;
-  padding: 3px;
-  margin: 10px 10px 10px 11px;
-  float: left;
-  text-align: center;
+.text-square {
+  /*border: 2px yellow solid;*/
+  width: 300px;
+  height: 500px;
+  float: right;
+  margin-right: 80px;
+  margin-top: 90px;
 }
-ul
-{
-    list-style-type: none;
-  padding:0; 
-  margin:0;
-  font-family: Montserrat;
-}
-a {
-    text-decoration:none;
-    color: grey;
+     h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 55px;
+      color:#81CFE0;
+     }   
     
-}
-a:hover {
-    color:#FE6666; }
-#photo-section {
- 
-  overflow: auto;
-}
-.img-body {
-  width: 370px;
- margin: 10px 8px 8px 8px;
-}
-#description {
-  
-  width: 360px;
-  float: left;
-  
-  margin-left: 10px;
-  margin-top: 10px;
-}
-.footer-img {
-  float: left;
-}
-img {
-  width: 370px;
-  margin-left: 23px;
-    margin-top: 10px;
-}
-p {
-  color: grey;
-  font-family: Montserrat;
-  font-size: 17px;
-    text-align: center;
-}
-    #modal-popup {
-        border: yellow dotted 4px;
-        height: 70px;
-        width: 260px;
-        overflow: auto;
-        z-index: 99;
-        position: fixed;
-        margin-left: -125;
-        left: 40%;
-        top: 200px;
-        background-color:white;
-        padding: 9px;
-        
-    } 
+    .text-aboutme {
+      color: #6C7A89;
+      font-size: 16px;
+      font-family: 'Montserrat';
 
-input[type=submit] {
-    color: white;
-    background-color: #FF6666;
-    font-size: 14px;
-}
+    }
+
+    a {
+      text-decoration: none;
+      color:#FE6666;
+    }
+    a:hover {
+      color:#81CFE0;
+    }
