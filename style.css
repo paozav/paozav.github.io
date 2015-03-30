@@ -64,7 +64,7 @@ body {
   margin-top: 90px;
 }
      h1 {
-      font-family: 'Oswald', sans-serif;
+      font-family: 'Oswald', Impact;
       font-size: 55px;
       color:#81CFE0;
      }   
@@ -72,7 +72,7 @@ body {
     .text-aboutme {
       color: #6C7A89;
       font-size: 16px;
-      font-family: 'Montserrat', helvetica;
+      font-family: 'Montserrat', Helvetica;
 
     }
 
