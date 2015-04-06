@@ -84,18 +84,18 @@ body {
       color:#81CFE0;
     }
 
-    #github-link {
-      width: 26px;
-      height: 26px;
+    .github-link {
+      width: 28px;
+      height: 28px;
       margin-left: 85px
     }
-#twitter-link {
-      width: 28px;
-      height: 28px;
+   .twitter-link {
+      width: 30px;
+      height: 30px;
       margin-left: 12px;
     }
-    #instagram-link {
-      width: 28px;
-      height: 28px;
+    .instagram-link {
+      width: 30px;
+      height: 30px;
       margin-left: 12px;
     }
